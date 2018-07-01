@@ -471,7 +471,7 @@ class header_widget(QWidget):
                 x.setSelection(index, len(text))
                 found = True
         for x in [self.title_entry]:
-            x.edit.setTextCursor(QTextCursor())
+            x.edit.setTextCursor(QTextCursor(x.edit.document()))
             #x.label.deselect()
             result = x.edit.find(text)
             #print(result)
@@ -480,6 +480,7 @@ class header_widget(QWidget):
                 x.label.setSelection( index, len(text ) )
                 found = True
             else:
+                x.edit.textCursor().movePosition(QTextCursor.End)
                 x.label.setSelection(0,0)
         return found
 
@@ -734,13 +735,14 @@ class body_widget(QWidget):
                 found = True
         for i in range(self.edit_layout.count()) :
             x = self.edit_layout.itemAt(i).widget()
-            x.edit.setTextCursor(QTextCursor())
+            x.edit.setTextCursor(QTextCursor(x.edit.document()))
             result = x.edit.find(text)
             if result:
                 index = x.label.text().lower().find(text)
                 x.label.setSelection( index, len(text) )
                 found = True
             else:
+                x.edit.textCursor().movePosition(QTextCursor.End)
                 x.label.setSelection(0,0)
         return found
 
