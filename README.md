@@ -19,6 +19,7 @@ a try if you like programs that are light ( and FREE! ).
 
 ## The main features can be summarized in a few points:
 
+
 * NoteR allows you to keep the title, author info and your own notes together
   in organized entries.
 * Papers can be grouped by your own personal tags.
@@ -27,6 +28,9 @@ a try if you like programs that are light ( and FREE! ).
   provides a link to the paper's website.
 * Pdf files can be automatically named and stored according to author
   information, simply by drag and drop
+* Multiple color schemes, choose one that's easy on your eyes.
+
+![image_2](graphics/noter_screen.PNG)
 
 # Installing and Using NoteR
 
