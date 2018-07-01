@@ -54,3 +54,13 @@ NoteR requires [pyqt5](https://pypi.org/project/PyQt5/) for the GUI and [beautif
 It is recommended to install python and the packages with some sort of package manager, such as [Anaconda](https://www.anaconda.com/download/). This allows you to create python environments with different python versions and packages, in case python 3.6 is not your main work environment. 
 
 Otherwise, you can also install python 3.6 directly and use pip to install pyqt5 and beautifulsoup4.
+
+# Bugs
+
+If you find a bug with the program, please report them here under [issues](https://github.com/johnchen93/NoteR/issues). Please include the information on what causes the problem, as well as what NoteR type (source or executable) and operating system you use. 
+
+I will try to fix these as quick as possible.
+
+## Current Known Issues
+
+1. Mac executable only (windows and source code are okay) - Notes section cannot be editted after a search, if the search results were not found inside the text box. To fix this, enter a search term that will match the desired text box. I will try to fix this the next time I have access to a Mac with a python installation.
