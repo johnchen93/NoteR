@@ -30,7 +30,7 @@ NoteR comes as a bundled executable or as source code that can be run directly i
 
 ## Executables
 
-Executable versions of NoteR are available for Windows. Mac versions have also been tested, and will be included in a later commit.
+Executable versions of NoteR are available for Windows and Mac, and can be found [here](https://github.com/johnchen93/NoteR/releases).
 
 Simply unzip the downloaded file containing NoteR into a directory, and run NoteR.exe inside the unzipped folder.
 
