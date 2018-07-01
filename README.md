@@ -1,3 +1,7 @@
+# Welcome to the home of NoteR!
+
+![image](graphics/noter_demo2.gif)
+
 # What is NoteR?
 
 NoteR is a light, academic paper tracking program written by a graduate student
