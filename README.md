@@ -68,3 +68,5 @@ I will try to fix these as quick as possible.
 ## Current Known Issues
 
 1. Mac executable only (windows and source code are okay) - Notes section cannot be editted after a search, if the search results were not found inside the text box. To fix this, enter a search term that will match the desired text box. I will try to fix this the next time I have access to a Mac with a python installation.
+
+2. All versions - Creating a backup for the first time will cause a crash, but will work if NoteR is restarted. It's a bit annoying but it doesn't causes any data loss.
