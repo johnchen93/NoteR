@@ -1,6 +1,11 @@
+# TLDR - Where do I download?
+
+[Download NoteR](https://github.com/johnchen93/NoteR/releases).
+
 # Welcome to the home of NoteR!
 
 ![image](graphics/noter_demo2.gif)
+
 
 # What is NoteR?
 
