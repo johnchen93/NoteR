@@ -50,7 +50,7 @@ Simply navigate to the source folder in command line or terminal and use the fol
 
 `python noter_2.py`
 
-As a side note, NoteR will create some new folders the first time is is run. These will be placed at the same level as the folder containing the source code. These folders can be relocated anywhere as long as the source folder is moved along with it.
+As a side note, NoteR will create some new folders the first time it is run. These will be placed at the same level as the folder containing the source code. These folders can be relocated anywhere as long as the source folder is moved along with it.
 
 ### Python Dependencies
 NoteR requires [pyqt5](https://pypi.org/project/PyQt5/) for the GUI and [beautifulsoup4](https://pypi.org/project/beautifulsoup4/) for fetching information from PubMed.
